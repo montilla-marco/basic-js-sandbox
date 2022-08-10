@@ -73,3 +73,16 @@ npm uninstall -S package remove this package from dependencies.
 npm uninstall -D package remove this package from devDependencies.  
 npm i -D package save this package to devDependencies.  
 npm i -S package save this package to dependencies.  
+
+## Clean Code Section 
+![](public/assets/images/clean-code-1.png)
+
+#### Naming Styles
+Well-named "Things" allow readers to understand your code without going through it in detail, then name shuld be MEANINGFUL
+
+![](public/assets/images/clean-code-name-casing.png)
+
+#### Variables
+![](public/assets/images/clean-code-variables-sample.png)
+Some tips to take in account
+![](public/assets/images/clean-code-variables-tips.png)

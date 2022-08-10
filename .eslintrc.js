@@ -9,12 +9,11 @@ module.exports = {
         'SharedArrayBuffer': 'readonly'
     },
     'parserOptions': {
-        'ecmaVersion': 2018,
+        'ecmaVersion': 2021,
         'sourceType': 'module'
     },
     'rules': {
         'accessor-pairs': 'error',
-        'array-bracket-newline': 'error',
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
         'array-element-newline': 'error',
@@ -31,7 +30,6 @@ module.exports = {
             'never'
         ],
         'class-methods-use-this': 'error',
-        'comma-dangle': 'error',
         'comma-spacing': 'error',
         'comma-style': [
             'error',
@@ -82,7 +80,10 @@ module.exports = {
         'lines-between-class-members': 'error',
         'max-classes-per-file': 'error',
         'max-depth': 'error',
-        'max-len': 'error',
+        'max-len': [
+            'error',
+            { 'code': 120 }
+        ],
         'max-lines': 'error',
         'max-lines-per-function': 'error',
         'max-nested-callbacks': 'error',
@@ -192,7 +193,6 @@ module.exports = {
         'no-whitespace-before-property': 'error',
         'nonblock-statement-body-position': 'error',
         'object-curly-newline': 'error',
-        'object-curly-spacing': 'error',
         'object-property-newline': 'error',
         'object-shorthand': 'error',
         'one-var': 'error',
